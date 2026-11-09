@@ -1,0 +1,67 @@
+
+/* 1. CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* 2. CONTENIDO PRINCIPAL */
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* 3. TÍTULOS */
+
+h1 {
+    color: #245b91;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    color: #245b91;
+}
+
+/* 4. LISTA DE RETOS */
+
+section {
+    margin-top: 25px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* 5. DISEÑO ADAPTABLE */
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
